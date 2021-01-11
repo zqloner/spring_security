@@ -11,11 +11,17 @@ import org.springframework.web.bind.annotation.RestController;
  * @Company: MGL
  */
 @RestController
-@RequestMapping
+@RequestMapping("/test")
 public class TestController {
 
-    @GetMapping
+    @GetMapping("hello")
     public String hello() {
         return "hello security";
     }
+
+    @GetMapping("index")
+    public String index() {
+        return "hello index";
+    }
+
 }
