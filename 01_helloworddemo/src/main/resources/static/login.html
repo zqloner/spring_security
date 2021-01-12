@@ -1,15 +1,19 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" xmlns:th="http://www.w3.org/1999/xhtml">
 <head>
     <meta charset="UTF-8">
     <title>Security</title>
 </head>
 <body>
-    <form action="/user/login" method="post">
-        用户名:<input type="text" name="username">
-        密码:<input type="text" name="password">
-        <br>
-        <input type="submit" value="login">
-    </form>
+<form action="/user/login" method="post">
+    <input type="hidden" th:if="${_csrf}!=null"th:value="${_csrf.token}"name="_csrf "/>
+    用户名:<input type="text" name="username">
+    <br>
+    密码:<input type="text" name="password">
+    <br>
+    <input type="checkbox" name="remember-me">自动登陆
+    <br>
+    <input type="submit" value="login">
+</form>
 </body>
 </html>

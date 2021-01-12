@@ -28,7 +28,7 @@ public class TestController {
     @GetMapping("update")
 //    @Secured({"ROLE_sale","ROLE_manager"})
 //    @PreAuthorize("hasAnyAuthority('adminsss')")
-    @PostAuthorize("hasAnyAuthority('adminsss')")
+    @PostAuthorize("hasAnyAuthority('admins')")
     public String update() {
         System.out.println("update........");
         return "hello update";
