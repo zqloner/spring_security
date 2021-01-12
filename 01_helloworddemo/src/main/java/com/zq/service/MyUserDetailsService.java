@@ -36,7 +36,8 @@ public class MyUserDetailsService implements UserDetailsService {
         if (users == null) { //数据库没有这个用户名,认证失败
             throw new UsernameNotFoundException("用户名不存在");
         }
-        List<GrantedAuthority> auths = AuthorityUtils.commaSeparatedStringToAuthorityList("role");
+        List<GrantedAuthority> auths = AuthorityUtils.commaSeparatedStringToAuthorityList("ROLE_sale,ROLE_manager");
+
         //重数据库查询的Users中得到用户名和密码,组装成security的User返回
         return new User(users.getUsername(),new BCryptPasswordEncoder().encode(users.getPassword()),auths);
     }
