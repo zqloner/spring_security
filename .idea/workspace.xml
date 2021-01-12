@@ -2,11 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc563a6-5b93-4c91-b457-beea361556ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/01_helloworddemo/src/main/resources/static/login.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/01_helloworddemo/src/main/resources/static/unAuth.html" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/config/SecurityConfigTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/config/SecurityConfigTest.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/controller/TestController.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/controller/TestController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/service/MyUserDetailsService.java" beforeDir="false" afterPath="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/service/MyUserDetailsService.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/01_helloworddemo/target/" />
@@ -27,17 +26,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/config/SecurityConfigTest.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="423">
-              <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
+            <state relative-caret-position="201">
+              <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/controller/TestController.java">
+        <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/service/MyUserDetailsService.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="403">
-              <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+            <state relative-caret-position="410">
+              <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -64,13 +63,14 @@
         <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/config/SecurityConfig.java" />
         <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/entity/Users.java" />
         <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/mapper/UsersMapper.java" />
-        <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/service/MyUserDetailsService.java" />
         <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/Application.java" />
         <option value="$PROJECT_DIR$/01_helloworddemo/pom.xml" />
         <option value="$PROJECT_DIR$/01_helloworddemo/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/01_helloworddemo/src/main/resources/static/login.html" />
-        <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/config/SecurityConfigTest.java" />
         <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/controller/TestController.java" />
+        <option value="$PROJECT_DIR$/01_helloworddemo/src/main/resources/static/unAuth.html" />
+        <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/config/SecurityConfigTest.java" />
+        <option value="$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/service/MyUserDetailsService.java" />
       </list>
     </option>
   </component>
@@ -200,14 +200,6 @@
               <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="01_helloworddemo" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
-              <item name="static" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -275,18 +267,33 @@
       <option name="presentableId" value="Default" />
       <updated>1610242797542</updated>
       <workItem from="1610242800962" duration="1921000" />
-      <workItem from="1610366420280" duration="10847000" />
+      <workItem from="1610366420280" duration="15850000" />
     </task>
+    <task id="LOCAL-00001" summary="自定义登陆页面">
+      <created>1610377403814</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1610377403815</updated>
+    </task>
+    <task id="LOCAL-00002" summary="---  基于角色或权限进权限控制访问">
+      <created>1610452960531</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1610452960531</updated>
+    </task>
+    <option name="localTasksCounter" value="3" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="12768000" />
+    <option name="totallyTimeSpent" value="17771000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.211126" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.123324394" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -298,7 +305,7 @@
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
-      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.77815014" visible="true" weight="0.13172804" />
+      <window_info active="true" anchor="bottom" id="Debug" order="3" sideWeight="0.77815014" visible="true" weight="0.2917847" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
       <window_info anchor="bottom" id="TODO" order="6" />
@@ -311,7 +318,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
-      <window_info anchor="bottom" id="Messages" order="16" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.13172804" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -330,6 +337,11 @@
   </component>
   <component name="TypeScriptGeneratedFilesManager">
     <option name="version" value="1" />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <MESSAGE value="自定义登陆页面" />
+    <MESSAGE value="---  基于角色或权限进权限控制访问" />
+    <option name="LAST_COMMIT_MESSAGE" value="---  基于角色或权限进权限控制访问" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/FilterInvocation.class">
@@ -398,16 +410,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/service/MyUserDetailsService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="108">
-          <caret line="31" selection-start-line="31" selection-end-line="31" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/resources/static/login.html">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -415,17 +417,41 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/config/SecurityConfigTest.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="423">
-          <caret line="39" column="26" selection-start-line="39" selection-start-column="26" selection-end-line="39" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/controller/TestController.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="403">
-          <caret line="25" column="4" selection-start-line="25" selection-start-column="4" selection-end-line="25" selection-end-column="4" />
+          <caret line="25" selection-start-line="25" selection-end-line="25" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/ExpressionUrlAuthorizationConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1012">
+          <caret line="123" column="34" selection-start-line="123" selection-start-column="29" selection-end-line="123" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/resources/static/unAuth.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="180">
+          <caret line="9" column="7" lean-forward="true" selection-start-line="9" selection-start-column="7" selection-end-line="9" selection-end-column="7" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/config/SecurityConfigTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="201">
+          <caret line="40" column="43" selection-start-line="40" selection-start-column="43" selection-end-line="40" selection-end-column="43" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/01_helloworddemo/src/main/java/com/zq/service/MyUserDetailsService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="42" column="5" selection-start-line="42" selection-start-column="5" selection-end-line="42" selection-end-column="5" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
