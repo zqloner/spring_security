@@ -2,8 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc563a6-5b93-4c91-b457-beea361556ca" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/GateWayApplication.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/01_helloworddemo/target/" />
@@ -30,52 +32,28 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserDetailsServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="316">
-              <caret line="38" column="9" selection-end-line="52" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/IndexController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="12" selection-start-line="27" selection-start-column="12" selection-end-line="27" selection-end-column="12" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            <state relative-caret-position="500">
+              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="55" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java">
+        <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="19" selection-start-line="19" selection-end-line="19" />
+            <state relative-caret-position="340">
+              <caret line="17" column="36" selection-end-line="17" selection-end-column="58" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/PermissionController.java">
+        <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="465">
-              <caret line="31" column="12" selection-start-line="31" selection-start-column="12" selection-end-line="31" selection-end-column="12" />
+            <state relative-caret-position="540">
+              <caret line="27" column="26" selection-end-line="31" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -84,61 +62,12 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/RoleController.java">
+        <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/GateWayApplication.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="198">
-              <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
+            <state relative-caret-position="340">
+              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
               <folding>
                 <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/UserController.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="418">
-              <caret line="40" column="11" selection-start-line="40" selection-start-column="11" selection-end-line="40" selection-end-column="11" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/RoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="17" selection-start-line="16" selection-start-column="17" selection-end-line="16" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/UserRoleService.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="260">
-              <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/RoleServiceImpl.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="346">
-              <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1501#1507#0" expanded="true" />
               </folding>
             </state>
           </provider>
@@ -170,9 +99,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acl_parent/service/pom.xml" />
-        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/pom.xml" />
-        <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/DefaultPasswordEncoder.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenLogoutController.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenLogoutHandler.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/UnAuthEntryPoint.java" />
@@ -221,6 +147,9 @@
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/UserController.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java" />
+        <option value="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/GateWayApplication.java" />
+        <option value="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -278,6 +207,96 @@
             <path>
               <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
               <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zq" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zq" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zq" type="462c0819:PsiDirectoryNode" />
+              <item name="gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="config" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
+              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
@@ -360,6 +379,15 @@
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="aclservice" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_acl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -439,7 +467,7 @@
       <updated>1610242797542</updated>
       <workItem from="1610242800962" duration="1921000" />
       <workItem from="1610366420280" duration="26231000" />
-      <workItem from="1610541138417" duration="15197000" />
+      <workItem from="1610541138417" duration="17082000" />
     </task>
     <task id="LOCAL-00001" summary="自定义登陆页面">
       <created>1610377403814</created>
@@ -525,16 +553,24 @@
       <option name="project" value="LOCAL" />
       <updated>1610555876291</updated>
     </task>
-    <option name="localTasksCounter" value="13" />
+    <task id="LOCAL-00013" summary="---  更改service_acl启动类包扫描">
+      <created>1610556543334</created>
+      <option name="number" value="00013" />
+      <option name="presentableId" value="LOCAL-00013" />
+      <option name="project" value="LOCAL" />
+      <updated>1610556543334</updated>
+    </task>
+    <option name="localTasksCounter" value="14" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="43349000" />
+    <option name="totallyTimeSpent" value="45234000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
+    <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2680965" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2680965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -543,7 +579,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.41359773" />
+      <window_info anchor="bottom" id="Run Dashboard" weight="0.66855526" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -593,46 +629,10 @@
     <MESSAGE value="---  编写核心配置类" />
     <MESSAGE value="---  编写UseDetailsService" />
     <MESSAGE value="---  连接配置" />
-    <option name="LAST_COMMIT_MESSAGE" value="---  连接配置" />
+    <MESSAGE value="---  更改service_acl启动类包扫描" />
+    <option name="LAST_COMMIT_MESSAGE" value="---  更改service_acl启动类包扫描" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/handler/MyMetaObjectHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/exceptionhandler/GlobalExceptionHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="13" column="3" selection-start-line="13" selection-start-column="3" selection-end-line="13" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/exceptionhandler/GuliException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="220">
-          <caret line="11" column="3" selection-start-line="11" selection-start-column="3" selection-end-line="11" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/authentication/logout/LogoutHandler.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="11" column="17" selection-start-line="11" selection-start-column="17" selection-end-line="11" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/utils/ResponseUtil.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="200">
@@ -1017,17 +1017,51 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties">
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-web/5.2.1.RELEASE/spring-web-5.2.1.RELEASE.jar!/org/springframework/web/cors/UrlBasedCorsConfigurationSource.class">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        <state relative-caret-position="226">
+          <caret line="26" column="11" selection-start-line="26" selection-start-column="11" selection-end-line="26" selection-end-column="11" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="260">
-          <caret line="19" selection-start-line="19" selection-end-line="19" />
+        <state relative-caret-position="200">
+          <caret line="16" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="500">
+          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="55" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="27" column="26" selection-end-line="31" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/GateWayApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="36" selection-end-line="17" selection-end-column="58" />
         </state>
       </provider>
     </entry>
