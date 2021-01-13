@@ -2,8 +2,8 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc563a6-5b93-4c91-b457-beea361556ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/01_helloworddemo/target/" />
@@ -33,7 +33,7 @@
         <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserDetailsServiceImpl.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="316">
-              <caret line="38" column="9" lean-forward="true" selection-end-line="52" />
+              <caret line="38" column="9" selection-end-line="52" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -53,11 +53,20 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="460">
-              <caret line="30" lean-forward="true" selection-end-line="35" selection-end-column="79" />
+            <state relative-caret-position="120">
+              <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="19" selection-start-line="19" selection-end-line="19" />
             </state>
           </provider>
         </entry>
@@ -161,7 +170,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acl_parent/pom.xml" />
         <option value="$PROJECT_DIR$/acl_parent/service/pom.xml" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/pom.xml" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/DefaultPasswordEncoder.java" />
@@ -212,6 +220,7 @@
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/UserController.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java" />
       </list>
     </option>
   </component>
@@ -273,189 +282,6 @@
             <path>
               <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
               <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service_base" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="service_base" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-              <item name="utils" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -533,29 +359,6 @@
               <item name="zq" type="462c0819:PsiDirectoryNode" />
               <item name="service" type="462c0819:PsiDirectoryNode" />
               <item name="aclservice" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service_acl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="aclservice" type="462c0819:PsiDirectoryNode" />
-              <item name="mapper" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="service" type="462c0819:PsiDirectoryNode" />
-              <item name="service_acl" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
@@ -609,18 +412,13 @@
         </RuleState>
       </list>
     </option>
+    <option name="contentProportion" value="0.15027322" />
   </component>
-  <component name="RunManager" selected="Spring Boot.Application">
-    <configuration name="AclParentApplication" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="acl_parent" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.acl_parent.AclParentApplication" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Application" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
-      <module name="01_helloworddemo" />
-      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.Application" />
+  <component name="RunManager">
+    <configuration name="service_acl" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="service_acl" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.service.aclservice.ServiceAclApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -641,7 +439,7 @@
       <updated>1610242797542</updated>
       <workItem from="1610242800962" duration="1921000" />
       <workItem from="1610366420280" duration="26231000" />
-      <workItem from="1610541138417" duration="14491000" />
+      <workItem from="1610541138417" duration="15197000" />
     </task>
     <task id="LOCAL-00001" summary="自定义登陆页面">
       <created>1610377403814</created>
@@ -720,17 +518,23 @@
       <option name="project" value="LOCAL" />
       <updated>1610555373573</updated>
     </task>
-    <option name="localTasksCounter" value="12" />
+    <task id="LOCAL-00012" summary="---  连接配置">
+      <created>1610555876291</created>
+      <option name="number" value="00012" />
+      <option name="presentableId" value="LOCAL-00012" />
+      <option name="project" value="LOCAL" />
+      <updated>1610555876291</updated>
+    </task>
+    <option name="localTasksCounter" value="13" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="42643000" />
+    <option name="totallyTimeSpent" value="43349000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.22788204" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.2680965" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -739,7 +543,7 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.28895184" />
+      <window_info active="true" anchor="bottom" id="Run Dashboard" visible="true" weight="0.41359773" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
@@ -756,7 +560,7 @@
       <window_info anchor="bottom" id="Version Control" order="13" />
       <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
-      <window_info anchor="bottom" id="Messages" order="16" weight="0.13172804" />
+      <window_info anchor="bottom" id="Messages" order="16" weight="0.3711048" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -788,19 +592,10 @@
     <MESSAGE value="---  编写授权过滤器" />
     <MESSAGE value="---  编写核心配置类" />
     <MESSAGE value="---  编写UseDetailsService" />
-    <option name="LAST_COMMIT_MESSAGE" value="---  编写UseDetailsService" />
+    <MESSAGE value="---  连接配置" />
+    <option name="LAST_COMMIT_MESSAGE" value="---  连接配置" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/utils/MD5.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="10" column="3" selection-start-line="10" selection-start-column="3" selection-end-line="10" selection-end-column="3" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/handler/MyMetaObjectHandler.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="260">
@@ -1144,7 +939,7 @@
     <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserDetailsServiceImpl.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="316">
-          <caret line="38" column="9" lean-forward="true" selection-end-line="52" />
+          <caret line="38" column="9" selection-end-line="52" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1224,8 +1019,15 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="460">
-          <caret line="30" lean-forward="true" selection-end-line="35" selection-end-column="79" />
+        <state relative-caret-position="120">
+          <caret line="7" column="66" selection-start-line="7" selection-start-column="66" selection-end-line="7" selection-end-column="66" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" selection-start-line="19" selection-end-line="19" />
         </state>
       </provider>
     </entry>
