@@ -2,9 +2,7 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="cfc563a6-5b93-4c91-b457-beea361556ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/entity/SecurityUser.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/entity/User.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenLoginFilter.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/config/TokenWebSecurityConfig.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
@@ -32,10 +30,22 @@
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/entity/User.java">
+        <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenAuthFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="320">
-              <caret line="16" column="28" lean-forward="true" selection-end-line="22" />
+            <state relative-caret-position="162">
+              <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="29" selection-end-column="40" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/config/TokenWebSecurityConfig.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="576">
+              <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -44,34 +54,10 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/entity/SecurityUser.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="220">
-              <caret line="14" column="16" lean-forward="true" selection-end-line="79" />
-              <folding>
-                <element signature="imports" expanded="true" />
-                <element signature="e#1349#1350#0" expanded="true" />
-                <element signature="e#1401#1402#0" expanded="true" />
-                <element signature="e#1450#1451#0" expanded="true" />
-                <element signature="e#1502#1503#0" expanded="true" />
-                <element signature="e#1560#1561#0" expanded="true" />
-                <element signature="e#1587#1588#0" expanded="true" />
-                <element signature="e#1644#1645#0" expanded="true" />
-                <element signature="e#1671#1672#0" expanded="true" />
-                <element signature="e#1733#1734#0" expanded="true" />
-                <element signature="e#1760#1761#0" expanded="true" />
-                <element signature="e#1808#1809#0" expanded="true" />
-                <element signature="e#1835#1836#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenLoginFilter.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="29" column="3" lean-forward="true" selection-end-line="83" />
+            <state relative-caret-position="406">
+              <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
               <folding>
                 <element signature="imports" expanded="true" />
               </folding>
@@ -116,7 +102,6 @@
         <option value="$PROJECT_DIR$/acl_parent/service/pom.xml" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/pom.xml" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/DefaultPasswordEncoder.java" />
-        <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenManager.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenLogoutController.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenLogoutHandler.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/UnAuthEntryPoint.java" />
@@ -131,6 +116,9 @@
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/entity/User.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/entity/SecurityUser.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenLoginFilter.java" />
+        <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenManager.java" />
+        <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenAuthFilter.java" />
+        <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/config/TokenWebSecurityConfig.java" />
       </list>
     </option>
   </component>
@@ -215,74 +203,6 @@
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
             </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="entity" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="common" type="462c0819:PsiDirectoryNode" />
-              <item name="spring_security" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="security" type="462c0819:PsiDirectoryNode" />
-              <item name="filter" type="462c0819:PsiDirectoryNode" />
-            </path>
           </expand>
           <select />
         </subPane>
@@ -365,7 +285,7 @@
       <updated>1610242797542</updated>
       <workItem from="1610242800962" duration="1921000" />
       <workItem from="1610366420280" duration="26231000" />
-      <workItem from="1610541138417" duration="9642000" />
+      <workItem from="1610541138417" duration="11954000" />
     </task>
     <task id="LOCAL-00001" summary="自定义登陆页面">
       <created>1610377403814</created>
@@ -416,17 +336,31 @@
       <option name="project" value="LOCAL" />
       <updated>1610548313446</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="---  编写认证授权过滤器">
+      <created>1610550945546</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1610550945546</updated>
+    </task>
+    <task id="LOCAL-00009" summary="---  编写授权过滤器">
+      <created>1610552477605</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1610552477605</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="37794000" />
+    <option name="totallyTimeSpent" value="40106000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
     <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.23659517" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.22184986" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -480,7 +414,9 @@
     <MESSAGE value="---  用户注销。自动登陆。开启阻止跨站请求伪造" />
     <MESSAGE value="---  SpringCoud+SpringSecurity项目搭建并引入依赖" />
     <MESSAGE value="---  编写Security工具类" />
-    <option name="LAST_COMMIT_MESSAGE" value="---  编写Security工具类" />
+    <MESSAGE value="---  编写认证授权过滤器" />
+    <MESSAGE value="---  编写授权过滤器" />
+    <option name="LAST_COMMIT_MESSAGE" value="---  编写授权过滤器" />
   </component>
   <component name="editorHistoryManager">
     <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/FilterInvocation.class">
@@ -776,16 +712,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenManager.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="21" column="25" lean-forward="true" selection-start-line="21" selection-start-column="25" selection-end-line="21" selection-end-column="25" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/entity/User.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -818,10 +744,54 @@
         </state>
       </provider>
     </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenManager.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="280">
+          <caret line="22" column="48" lean-forward="true" selection-start-line="22" selection-start-column="48" selection-end-line="22" selection-end-column="48" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="22" column="135" lean-forward="true" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="135" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenAuthFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="162">
+          <caret line="28" column="1" selection-start-line="28" selection-start-column="1" selection-end-line="29" selection-end-column="40" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenLoginFilter.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="29" column="3" lean-forward="true" selection-end-line="83" />
+        <state relative-caret-position="406">
+          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/ExceptionHandlingConfigurer.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="226">
+          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/config/TokenWebSecurityConfig.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="576">
+          <caret line="51" column="36" lean-forward="true" selection-start-line="51" selection-start-column="36" selection-end-line="51" selection-end-column="36" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
