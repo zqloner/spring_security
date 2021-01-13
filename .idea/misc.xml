@@ -4,6 +4,7 @@
     <option name="originalFiles">
       <list>
         <option value="$PROJECT_DIR$/01_helloworddemo/pom.xml" />
+        <option value="$PROJECT_DIR$/acl_parent/pom.xml" />
       </list>
     </option>
   </component>

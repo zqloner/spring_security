@@ -2,6 +2,14 @@
 <project version="4">
   <component name="Encoding" defaultCharsetForPropertiesFiles="UTF-8">
     <file url="file://$PROJECT_DIR$/01_helloworddemo" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acl_parent" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acl_parent/common" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acl_parent/common/service_base" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acl_parent/common/spring_security" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acl_parent/infrastructure" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acl_parent/service" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/acl_parent/service/service_acl" charset="UTF-8" />
     <file url="PROJECT" charset="UTF-8" />
   </component>
 </project>
