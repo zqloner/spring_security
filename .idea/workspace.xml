@@ -1,11 +1,124 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="cfc563a6-5b93-4c91-b457-beea361556ca" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/GateWayApplication.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties" afterDir="false" />
+    <list default="true" id="cfc563a6-5b93-4c91-b457-beea361556ca" name="Default Changelist" comment="---  整合网关">
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/.babelrc" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/.editorconfig" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/.eslintignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/.eslintrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/.gitignore" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/.postcssrc.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/.travis.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/LICENSE" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/README-zh.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/README.md" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/build/build.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/build/check-versions.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/build/logo.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/build/utils.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/build/vue-loader.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/build/webpack.base.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/build/webpack.dev.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/build/webpack.prod.conf.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/config/dev.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/config/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/config/prod.env.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/favicon.ico" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/index.html" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/package.json" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/App.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/api/acl/menu.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/api/acl/role.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/api/acl/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/api/login.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/api/table.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/assets/404_images/404.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/assets/404_images/404_cloud.png" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/Breadcrumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/Hamburger/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/ImageCropper/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/ImageCropper/utils/data2blob.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/ImageCropper/utils/effectRipple.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/ImageCropper/utils/language.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/ImageCropper/utils/mimes.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/PanThumb/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/SvgIcon/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/Tinymce/components/editorImage.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/Tinymce/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/Tinymce/plugins.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/components/Tinymce/toolbar.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/example.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/eye.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/form.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/link.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/nested.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/password.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/table.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/tree.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svg/user.svg" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/icons/svgo.yml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/main.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/router/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/store/getters.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/store/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/store/index.js.back" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/store/modules/app.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/store/modules/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/store/modules/user.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/styles/element-ui.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/styles/index.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/styles/mixin.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/styles/sidebar.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/styles/transition.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/styles/variables.scss" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/utils/auth.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/utils/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/utils/permission.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/utils/request.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/utils/validate.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/404.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/acl/menu/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/acl/menu/list.vue.back" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/acl/role/form.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/acl/role/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/acl/role/roleForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/acl/user/form.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/acl/user/list.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/acl/user/roleForm.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/dashboard/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/form/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/Layout.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/components/AppMain.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/components/Navbar.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/components/Sidebar/Item.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/components/Sidebar/Link.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/components/Sidebar/SidebarItem.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/components/Sidebar/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/components/Sidebar/index.vue.back" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/components/index.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/layout/mixin/ResizeHandler.js" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/login/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/nested/menu1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/nested/menu1/menu1-1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/nested/menu1/menu1-2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/nested/menu1/menu1-2/menu1-2-1/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/nested/menu1/menu1-2/menu1-2-2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/nested/menu1/menu1-3/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/nested/menu2/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/table/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/src/views/tree/index.vue" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/springsecurity-admin/static/.gitkeep" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/PermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/mapper/security/PermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/RoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/mapper/security/RoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/RolePermissionMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/mapper/security/RolePermissionMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/UserMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/mapper/security/UserMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/UserRoleMapper.xml" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/mapper/security/UserRoleMapper.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties" beforeDir="false" afterPath="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties" afterDir="false" />
     </list>
     <ignored path="$PROJECT_DIR$/out/" />
     <ignored path="$PROJECT_DIR$/01_helloworddemo/target/" />
@@ -31,44 +144,32 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/PermissionServiceImpl.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="39">
+              <caret line="119" selection-start-line="119" selection-end-line="119" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="500">
-              <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="55" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="17" column="36" selection-end-line="17" selection-end-column="58" />
+            <state relative-caret-position="420">
+              <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java">
+        <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/pom.xml">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="540">
-              <caret line="27" column="26" selection-end-line="31" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/GateWayApplication.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="340">
-              <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
-              <folding>
-                <element signature="imports" expanded="true" />
-              </folding>
+            <state relative-caret-position="320">
+              <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
             </state>
           </provider>
         </entry>
@@ -87,6 +188,8 @@
     <findStrings>
       <find>aclservice</find>
       <find>atguigu</find>
+      <find>baseMapper</find>
+      <find>selectPermissionList = baseMapper.selectPermissionByUserId(userId);</find>
     </findStrings>
     <replaceStrings>
       <replace>zq</replace>
@@ -99,8 +202,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenLogoutController.java" />
-        <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenLogoutHandler.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/UnAuthEntryPoint.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/SwaggerConfig.java" />
         <option value="$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/RedisConfig.java" />
@@ -118,7 +219,6 @@
         <option value="$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/config/TokenWebSecurityConfig.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/entity/Role.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/RoleMapper.java" />
-        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/PermissionMapper.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/RolePermissionMapper.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/UserMapper.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/UserRoleMapper.java" />
@@ -138,18 +238,21 @@
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserRoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/RoleServiceImpl.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/RolePermissionServiceImpl.java" />
-        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/PermissionServiceImpl.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/IndexServiceImpl.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserDetailsServiceImpl.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/IndexController.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/PermissionController.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/RoleController.java" />
         <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/controller/UserController.java" />
-        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties" />
-        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java" />
         <option value="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/GateWayApplication.java" />
-        <option value="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java" />
         <option value="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties" />
+        <option value="$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java" />
+        <option value="$PROJECT_DIR$/acl_parent/pom.xml" />
+        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/PermissionServiceImpl.java" />
+        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java" />
+        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/PermissionMapper.java" />
+        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/pom.xml" />
+        <option value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties" />
       </list>
     </option>
   </component>
@@ -163,15 +266,6 @@
   <component name="MavenProjectNavigator">
     <treeState>
       <expand>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="01_helloworddemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-        </path>
-        <path>
-          <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
-          <item name="01_helloworddemo" type="9519ce18:MavenProjectsStructure$ProjectNode" />
-          <item name="Dependencies" type="f4be9f2a:MavenProjectsStructure$DependenciesNode" />
-        </path>
         <path>
           <item name="" type="16c1761:MavenProjectsStructure$RootNode" />
           <item name="service" type="9519ce18:MavenProjectsStructure$ProjectNode" />
@@ -199,104 +293,16 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
-      <pane id="PackagesPane" />
-      <pane id="Scope" />
       <pane id="ProjectPane">
         <subPane>
           <expand>
             <path>
               <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="01_helloworddemo" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
               <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="java" type="462c0819:PsiDirectoryNode" />
-              <item name="com" type="462c0819:PsiDirectoryNode" />
-              <item name="zq" type="462c0819:PsiDirectoryNode" />
-              <item name="gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="config" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
-              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
-              <item name="infrastructure" type="462c0819:PsiDirectoryNode" />
-              <item name="api_gateway" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="main" type="462c0819:PsiDirectoryNode" />
-              <item name="resources" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
@@ -386,12 +392,78 @@
               <item name="service_acl" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zq" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="aclservice" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_acl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zq" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="aclservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_acl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="java" type="462c0819:PsiDirectoryNode" />
+              <item name="com" type="462c0819:PsiDirectoryNode" />
+              <item name="zq" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="aclservice" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="impl" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_acl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
               <item name="resources" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_acl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="spring_security" type="b2602c69:ProjectViewProjectNode" />
+              <item name="acl_parent" type="462c0819:PsiDirectoryNode" />
+              <item name="service" type="462c0819:PsiDirectoryNode" />
+              <item name="service_acl" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="main" type="462c0819:PsiDirectoryNode" />
+              <item name="resources" type="462c0819:PsiDirectoryNode" />
+              <item name="mapper" type="462c0819:PsiDirectoryNode" />
+              <item name="security" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
           <select />
         </subPane>
       </pane>
+      <pane id="Scope" />
+      <pane id="PackagesPane" />
     </panes>
   </component>
   <component name="PropertiesComponent">
@@ -404,17 +476,23 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
     <property name="jdk.selected.JAVA_MODULE" value="1.8" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources" />
+    <property name="last_opened_file_path" value="E:/尚硅谷/学不学是另一码事/尚硅谷SpringSecurity教程/源码/案例/微服务方案案例/acl_parent" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
     <property name="project.structure.last.edited" value="Modules" />
     <property name="project.structure.proportion" value="0.0" />
     <property name="project.structure.side.proportion" value="0.0" />
     <property name="restartRequiresConfirmation" value="false" />
-    <property name="settings.editor.selected.configurable" value="editor.preferences.tabs" />
+    <property name="settings.editor.selected.configurable" value="preferences.pluginManager" />
     <property name="typescript.add.unambiguous.imports.on.the.fly" value="true" />
   </component>
   <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="D:\workspace\ideaWorkSpace\spring_security\acl_parent\service\service_acl\src\main\resources\mapper\security" />
+      <recent name="D:\workspace\ideaWorkSpace\spring_security\acl_parent\service\service_acl\src\main\java\com\zq\service\aclservice\mapper" />
+      <recent name="D:\workspace\ideaWorkSpace\spring_security\acl_parent\service\service_acl\src\main\resources\mapper\xml" />
+      <recent name="D:\workspace\ideaWorkSpace\spring_security\acl_parent\service\service_acl\src\main\resources\mapper" />
+    </key>
     <key name="CopyClassDialog.RECENTS_KEY">
       <recent name="com.zq.config" />
     </key>
@@ -440,9 +518,17 @@
         </RuleState>
       </list>
     </option>
-    <option name="contentProportion" value="0.15027322" />
+    <option name="contentProportion" value="0.041666668" />
   </component>
-  <component name="RunManager">
+  <component name="RunManager" selected="Spring Boot.service_acl">
+    <configuration name="gate_way" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
+      <module name="api_gateway" />
+      <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.gateway.GateWayApplication" />
+      <option name="ALTERNATIVE_JRE_PATH" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="service_acl" type="SpringBootApplicationConfigurationType" factoryName="Spring Boot">
       <module name="service_acl" />
       <option name="SPRING_BOOT_MAIN_CLASS" value="com.zq.service.aclservice.ServiceAclApplication" />
@@ -451,6 +537,10 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <list>
+      <item itemvalue="Spring Boot.gate_way" />
+      <item itemvalue="Spring Boot.service_acl" />
+    </list>
   </component>
   <component name="SshConsoleOptionsProvider">
     <option name="myEncoding" value="UTF-8" />
@@ -467,7 +557,13 @@
       <updated>1610242797542</updated>
       <workItem from="1610242800962" duration="1921000" />
       <workItem from="1610366420280" duration="26231000" />
-      <workItem from="1610541138417" duration="17082000" />
+      <workItem from="1610541138417" duration="18069000" />
+      <workItem from="1610564221555" duration="155000" />
+      <workItem from="1610564412018" duration="3298000" />
+      <workItem from="1610567748879" duration="216000" />
+      <workItem from="1610567988899" duration="2645000" />
+      <workItem from="1610570978256" duration="149000" />
+      <workItem from="1610571156361" duration="4226000" />
     </task>
     <task id="LOCAL-00001" summary="自定义登陆页面">
       <created>1610377403814</created>
@@ -560,17 +656,32 @@
       <option name="project" value="LOCAL" />
       <updated>1610556543334</updated>
     </task>
-    <option name="localTasksCounter" value="14" />
+    <task id="LOCAL-00014" summary="---  整合网关">
+      <created>1610563211480</created>
+      <option name="number" value="00014" />
+      <option name="presentableId" value="LOCAL-00014" />
+      <option name="project" value="LOCAL" />
+      <updated>1610563211480</updated>
+    </task>
+    <option name="localTasksCounter" value="15" />
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="45234000" />
+    <option name="totallyTimeSpent" value="56910000" />
+  </component>
+  <component name="TodoView">
+    <todo-panel id="selected-file">
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
+    <todo-panel id="all">
+      <are-packages-shown value="true" />
+      <is-autoscroll-to-source value="true" />
+    </todo-panel>
   </component>
   <component name="ToolWindowManager">
     <frame x="-7" y="-7" width="1550" height="838" extended-state="6" />
-    <editor active="true" />
     <layout>
-      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.2680965" />
+      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.28686327" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Designer" order="2" />
       <window_info id="Image Layers" order="3" />
@@ -579,14 +690,13 @@
       <window_info id="Favorites" order="6" side_tool="true" />
       <window_info id="Alibaba Cloud Explorer" order="7" />
       <window_info id="Web" order="8" side_tool="true" />
-      <window_info anchor="bottom" id="Run Dashboard" weight="0.66855526" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" weight="0.3286119" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" sideWeight="0.77815014" weight="0.25637394" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
-      <window_info anchor="bottom" id="TODO" order="6" />
+      <window_info anchor="bottom" id="TODO" order="6" weight="0.3286119" />
       <window_info anchor="bottom" id="Spring" order="7" />
       <window_info anchor="bottom" id="Terminal" order="8" />
       <window_info anchor="bottom" id="Docker" order="9" show_stripe_button="false" />
@@ -594,9 +704,10 @@
       <window_info anchor="bottom" id="Java Enterprise" order="11" />
       <window_info anchor="bottom" id="Database Changes" order="12" />
       <window_info anchor="bottom" id="Version Control" order="13" />
-      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" />
+      <window_info anchor="bottom" id="Alibaba Cloud View" order="14" weight="0.3286119" />
       <window_info anchor="bottom" id="MyBatis Log" order="15" />
       <window_info anchor="bottom" id="Messages" order="16" weight="0.3711048" />
+      <window_info active="true" anchor="bottom" x="22" y="241" width="1492" height="341" id="Run Dashboard" order="17" visible="true" weight="0.65014166" />
       <window_info anchor="right" id="Commander" internal_type="SLIDING" order="0" type="SLIDING" weight="0.4" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
       <window_info anchor="right" content_ui="combo" id="Hierarchy" order="2" weight="0.25" />
@@ -606,7 +717,7 @@
       <window_info anchor="right" id="Database" order="6" />
       <window_info anchor="right" id="Mybatis datasource" order="7" side_tool="true" />
       <window_info anchor="right" id="Alibaba ROS Templates" order="8" />
-      <window_info anchor="right" id="Alibaba Function Compute" order="9" />
+      <window_info anchor="right" id="Alibaba Function Compute" order="9" weight="0.3297587" />
       <window_info anchor="right" id="Palette&#9;" order="10" />
       <window_info anchor="right" id="Theme Preview" order="11" />
       <window_info anchor="right" id="Alibaba Log Console" order="12" />
@@ -630,150 +741,38 @@
     <MESSAGE value="---  编写UseDetailsService" />
     <MESSAGE value="---  连接配置" />
     <MESSAGE value="---  更改service_acl启动类包扫描" />
-    <option name="LAST_COMMIT_MESSAGE" value="---  更改service_acl启动类包扫描" />
+    <MESSAGE value="---  整合网关" />
+    <option name="LAST_COMMIT_MESSAGE" value="---  整合网关" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/PermissionServiceImpl.java</url>
+          <line>116</line>
+          <properties />
+          <option name="timeStamp" value="4" />
+        </line-breakpoint>
+        <line-breakpoint type="java-line">
+          <url>file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/PermissionServiceImpl.java</url>
+          <line>128</line>
+          <properties />
+          <option name="timeStamp" value="5" />
+        </line-breakpoint>
+        <line-breakpoint enabled="true" type="java-line">
+          <url>file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/PermissionServiceImpl.java</url>
+          <line>119</line>
+          <properties />
+          <option name="timeStamp" value="6" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
+  </component>
+  <component name="antWorkspaceConfiguration">
+    <option name="IS_AUTOSCROLL_TO_SOURCE" value="false" />
+    <option name="FILTER_TARGETS" value="false" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/service_base/src/main/java/com/zq/utils/utils/ResponseUtil.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="15" column="13" selection-start-line="15" selection-start-column="13" selection-end-line="15" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/DefaultPasswordEncoder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="520">
-          <caret line="30" lean-forward="true" selection-end-line="30" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/UnAuthEntryPoint.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="440">
-          <caret line="22" column="38" selection-start-line="22" selection-start-column="38" selection-end-line="22" selection-end-column="38" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/security/TokenLogoutHandler.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="502">
-          <caret line="37" column="43" lean-forward="true" selection-start-line="37" selection-start-column="43" selection-end-line="37" selection-end-column="43" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/UsernamePasswordAuthenticationToken.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="22" column="135" lean-forward="true" selection-start-line="22" selection-start-column="85" selection-end-line="22" selection-end-column="135" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-config/5.2.1.RELEASE/spring-security-config-5.2.1.RELEASE.jar!/org/springframework/security/config/annotation/web/configurers/ExceptionHandlingConfigurer.class">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="45" column="42" selection-start-line="45" selection-start-column="42" selection-end-line="45" selection-end-column="42" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/entity/Role.java">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/entity/Permission.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="26" column="13" selection-start-line="26" selection-start-column="13" selection-end-line="26" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/entity/User.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="226">
-          <caret line="25" column="13" selection-start-line="25" selection-start-column="13" selection-end-line="25" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/RoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" selection-start-line="2" selection-end-line="2" selection-end-column="40" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/PermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/RolePermissionMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/UserMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/UserRoleMapper.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="40" selection-start-line="2" selection-start-column="40" selection-end-line="2" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/PermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="3" column="54" selection-start-line="3" selection-start-column="54" selection-end-line="3" selection-end-column="54" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/RoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/RolePermissionMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/UserMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="40">
-          <caret line="2" column="30" selection-start-line="2" selection-start-column="30" selection-end-line="2" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/xml/UserRoleMapper.xml">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="100">
-          <caret line="5" selection-start-line="5" selection-end-line="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/helper/PermissionHelper.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="-33">
@@ -809,13 +808,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/PermissionService.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-11">
-          <caret line="3" column="18" selection-start-line="3" selection-start-column="18" selection-end-line="3" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/IndexService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="280">
@@ -823,61 +815,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserRoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/RolePermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="4" column="21" selection-start-line="4" selection-start-column="21" selection-end-line="4" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/PermissionServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="125">
-          <caret line="11" column="9" selection-start-line="11" selection-start-column="9" selection-end-line="11" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/IndexServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-745">
-          <caret line="19" column="55" lean-forward="true" selection-start-line="19" selection-start-column="55" selection-end-line="19" selection-end-column="55" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="335">
-          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenAuthFilter.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="422">
           <caret line="35" column="5" lean-forward="true" selection-start-line="35" selection-start-column="5" selection-end-line="35" selection-end-column="5" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenLoginFilter.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="39" column="11" selection-start-line="39" selection-start-column="11" selection-end-line="39" selection-end-column="11" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -936,16 +877,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserDetailsServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="316">
-          <caret line="38" column="9" selection-end-line="52" />
-          <folding>
-            <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/RoleService.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="320">
@@ -962,17 +893,6 @@
           <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
           <folding>
             <element signature="imports" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/RoleServiceImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="346">
-          <caret line="28" column="13" selection-start-line="28" selection-start-column="13" selection-end-line="28" selection-end-column="13" />
-          <folding>
-            <element signature="imports" expanded="true" />
-            <element signature="e#1501#1507#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -1024,24 +944,96 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java">
+    <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="200">
-          <caret line="16" column="5" lean-forward="true" selection-start-line="14" selection-start-column="4" selection-end-line="16" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="500">
-          <caret line="32" selection-start-line="32" selection-end-line="32" selection-end-column="55" />
+        <state relative-caret-position="100">
+          <caret line="5" selection-start-line="5" selection-end-line="5" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/config/CorsConfig.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="540">
-          <caret line="27" column="26" selection-end-line="31" />
+        <state relative-caret-position="175">
+          <caret line="29" column="26" lean-forward="true" selection-end-line="35" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/header/HeaderWriterFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="50" selection-start-line="50" selection-end-line="50" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/FilterChainProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="128">
+          <caret line="169" selection-start-line="169" selection-end-line="169" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-web/5.2.1.RELEASE/spring-security-web-5.2.1.RELEASE.jar!/org/springframework/security/web/authentication/AbstractAuthenticationProcessingFilter.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="127">
+          <caret line="79" selection-start-line="79" selection-end-line="79" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/security/spring-security-core/5.2.1.RELEASE/spring-security-core-5.2.1.RELEASE.jar!/org/springframework/security/authentication/AuthenticationManager.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="24">
+          <caret line="10" column="17" selection-start-line="10" selection-start-column="17" selection-end-line="10" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/IndexServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="362">
+          <caret line="72" lean-forward="true" selection-start-line="72" selection-end-line="72" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/RolePermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/RoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1365">
+          <caret line="84" column="33" selection-start-line="84" selection-start-column="23" selection-end-line="84" selection-end-column="33" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#1501#1507#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserRoleServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="340">
+          <caret line="17" column="13" selection-start-line="17" selection-start-column="13" selection-end-line="17" selection-end-column="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="360">
+          <caret line="18" column="13" selection-start-line="18" selection-start-column="13" selection-end-line="18" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
@@ -1050,18 +1042,182 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/java/com/zq/gateway/GateWayApplication.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="19" lean-forward="true" selection-start-line="19" selection-end-line="19" />
+        <state>
+          <caret line="14" column="13" selection-start-line="14" selection-start-column="13" selection-end-line="14" selection-end-column="13" />
           <folding>
             <element signature="imports" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/api_gateway/src/main/resources/application.properties">
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/RolePermissionMapper.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="340">
-          <caret line="17" column="36" selection-end-line="17" selection-end-column="58" />
+        <state>
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/UserRoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-aop/5.2.1.RELEASE/spring-aop-5.2.1.RELEASE.jar!/org/springframework/aop/framework/CglibAopProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="209">
+          <caret line="482" column="18" selection-start-line="482" selection-start-column="18" selection-end-line="482" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/org/springframework/spring-core/5.2.1.RELEASE/spring-core-5.2.1.RELEASE.jar!/org/springframework/cglib/proxy/MethodProxy.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="1920">
+          <caret line="111" column="9" selection-start-line="111" selection-start-column="9" selection-end-line="111" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/UserMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/src/main/java/com/zq/security/filter/TokenLoginFilter.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="680">
+          <caret line="53" selection-start-line="53" selection-end-line="53" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/mapper/security/PermissionMapper.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="193">
+          <caret line="48" column="12" selection-start-line="48" selection-start-column="12" selection-end-line="48" selection-end-column="12" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/UserDetailsServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="45" column="73" selection-start-line="45" selection-start-column="73" selection-end-line="45" selection-end-column="73" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/PermissionService.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="73">
+          <caret line="31" column="17" selection-start-line="31" selection-start-column="17" selection-end-line="31" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/infrastructure/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/common/spring_security/pom.xml">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="540">
+          <caret line="45" column="49" selection-start-line="45" selection-start-column="24" selection-end-line="45" selection-end-column="49" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="55" column="53" selection-start-line="55" selection-start-column="41" selection-end-line="55" selection-end-column="53" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/RoleMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="78">
+          <caret line="13" column="17" selection-start-line="13" selection-start-column="17" selection-end-line="13" selection-end-column="17" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-core/3.0.5/mybatis-plus-core-3.0.5.jar!/com/baomidou/mybatisplus/core/mapper/BaseMapper.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="15" column="17" selection-start-line="15" selection-start-column="17" selection-end-line="15" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://$MAVEN_REPOSITORY$/com/baomidou/mybatis-plus-extension/3.0.5/mybatis-plus-extension-3.0.5.jar!/com/baomidou/mybatisplus/extension/service/impl/ServiceImpl.class">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="132">
+          <caret line="36" column="16" selection-start-line="36" selection-start-column="16" selection-end-line="36" selection-end-column="16" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/ServiceAclApplication.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="13" selection-start-line="13" selection-end-line="13" />
+          <folding>
+            <element signature="imports" expanded="true" />
+            <element signature="e#540#541#0" expanded="true" />
+            <element signature="e#612#613#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/mapper/PermissionMapper.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="261">
+          <caret line="15" column="46" selection-start-line="15" selection-start-column="46" selection-end-line="15" selection-end-column="46" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/resources/application.properties">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="29" column="48" selection-start-line="29" selection-start-column="48" selection-end-line="29" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/pom.xml">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="320">
+          <caret line="25" lean-forward="true" selection-start-line="25" selection-end-line="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/acl_parent/service/service_acl/src/main/java/com/zq/service/aclservice/service/impl/PermissionServiceImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="39">
+          <caret line="119" selection-start-line="119" selection-end-line="119" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
